@@ -153,7 +153,7 @@ nav a:focus {
 }
 
 label {
-    margin: -1.2em .8em 0 0;
+    margin: -1.6em .8em 0 0;
     font-size: 2.5rem;
     line-height: 4rem;
     display: none;
@@ -169,7 +169,7 @@ label {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0);
     backdrop-filter: blur(4px);
 }
 
@@ -194,6 +194,7 @@ label {
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: .1em;
+    margin-bottom: .7em;
 }
 
 /* hero */
@@ -312,6 +313,10 @@ label {
     cursor: pointer;
 }
 
+.skills-aside-panel ul {
+    padding-bottom: 1em;
+}
+
 /* projects */
 
 .projects-section {
@@ -400,6 +405,10 @@ label {
     align-items: center;
     margin: 0;
     border-bottom: 1px solid #9F9F9F;
+}
+
+.contact-features-panel:last-child {
+    border-bottom: none;
 }
 
 .contact-features-panel img {
@@ -579,6 +588,10 @@ label {
         border: none;
         max-width: 25%;
         min-width: 20%;
+    }
+
+    .skills-aside-panel ul {
+        padding-bottom: 0;
     }
 
     .skills-btn-panel {
