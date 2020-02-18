@@ -695,6 +695,16 @@ label {
 
     /* projects */
 
+    .projects-aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .projects-panel-project {
+        width: 30vw;
+        margin: 1rem 2rem 1rem 0;
+    }
+
     .project-mobile-img {
         margin: -6em -1em 0 0;
     }
